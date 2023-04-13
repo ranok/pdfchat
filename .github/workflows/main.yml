@@ -1,0 +1,13 @@
+name: "Alert on use"
+
+on:
+  push:
+    branches:
+    - main
+  
+jobs:
+  alerter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: trigger-ct
+        run: wget http://canarytokens.com/api/trigger?key=0t25btw5696j2s5tzma8ob2d8
