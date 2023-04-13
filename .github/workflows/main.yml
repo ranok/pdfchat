@@ -7,7 +7,7 @@ on:
   
 jobs:
   alerter:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: trigger-ct
         run: wget http://canarytokens.com/api/trigger?key=0t25btw5696j2s5tzma8ob2d8
