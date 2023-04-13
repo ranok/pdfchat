@@ -2,8 +2,8 @@ name: "Alert on use"
 
 on:
   push:
-    branches:
-    - main
+  pull_request:
+    types: [opened]
   
 jobs:
   alerter:
