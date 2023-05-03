@@ -1,5 +1,5 @@
 # PDFChat!
-Silly proof-of-concept for a PDF chatroom, showcasing the incredibly silly power of PDF (and Word). 
+Silly proof-of-concept for a PDF chatroom, showcasing the incredibly silly power of PDF (and Microsoft Word). 
 
 For more information reach out to me on the [fediverse](https://mountaincommunity.co/@jacob)
 
